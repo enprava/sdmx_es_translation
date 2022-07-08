@@ -82,7 +82,7 @@
 			"label": "Servicios públicos"
 		},
 		"importStructures": {
-			"label": "Estructuras de importación"
+			"label": "Importar Estructuras"
 		},
 		"compareItemSchemes": {
 			"label": "Comparar esquemas de artículos"
@@ -784,7 +784,7 @@
 					}
 				},
 				"nsiEndpointType": {
-					"label": "Tipo de punto final SDMX WS",
+					"label": "Ruta del servicio NSI",
 					"options": {
 						"soap": {
 							"label": "SOAP"
@@ -795,15 +795,15 @@
 					}
 				},
 				"maEndpoint": {
-					"label": "Punto final de MA",
+					"label": "Ruta del servicio MA",
 					"placeholder": "https://localhost/MA_WS"
 				},
 				"dmEndpoint": {
-					"label": "Punto final de DM",
+					"label": "Ruta del servicio DM",
 					"placeholder": "https://localhost/DM_API_WS/api/DMApi"
 				},
 				"ldapEndpoint": {
-					"label": "Punto final LDAP"
+					"label": "Ruta de acceso LDAP"
 				},
 				"activeDirectoryEndpoint": {
 					"label": "Punto final de Active Directory"
@@ -2199,12 +2199,12 @@
 				"csvForm": {
 					"messages": {
 						"fileUpload": {
-							"start": "Uploading file",
-							"success": "File uploaded successfully"
+							"start": "Subiendo archivo",
+							"success": "Archivo subido exitosamente"
 						},
 						"submit": {
-							"start": "Importing data",
-							"success": "Data imported successfully"
+							"start": "Impotando datos",
+							"success": "Datos importados exitosamente"
 						}
 					},
 					"fields": {
@@ -3123,13 +3123,13 @@
 			"importStructures": {
 				"messages": {
 					"fileUpload": {
-						"success": "File uploaded successfully"
+						"success": "Fichero cargado exitosamente"
 					}
 				},
 				"table": {
 					"import": {
 						"submit": {
-							"title": "Importaciones"
+							"title": "Importar"
 						}
 					}
 				},
