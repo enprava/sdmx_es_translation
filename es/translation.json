@@ -4864,7 +4864,8 @@
 	},
 	"languages": {
 		"it": "Italiano",
-		"en": "English"
+		"en": "English",
+		"es": "Español"
 	},
 	"layoutAnnotations": {
 		"defaultPresentation": {
