@@ -1176,7 +1176,7 @@
 					"title": "Mostrar detalle"
 				},
 				"delete": {
-					"title": "Borrar la cartografía"
+					"title": "Borrar el mapa"
 				},
 				"deleteAll": {
 					"title": "Eliminar todas las asignaciones seleccionadas"
@@ -2209,7 +2209,7 @@
 					},
 					"fields": {
 						"mapping": {
-							"label": "Cartografía"
+							"label": "Mapa"
 						},
 						"importType": {
 							"label": "Tipo de importación",
@@ -2228,22 +2228,22 @@
 					},
 					"mappingControl": {
 						"selectedMapping": {
-							"title": "Detalle de la cartografía seleccionada"
+							"title": "Detalle del mapa seleccionado"
 						},
 						"mappingList": {
 							"title": "Lista de mapas"
 						},
 						"detailMapping": {
-							"title": "Detalle de la cartografía"
+							"title": "Detalle del mapa"
 						},
 						"detailIcon": {
 							"title": "Mostrar detalle"
 						},
 						"selectIcon": {
-							"title": "Seleccione la cartografía"
+							"title": "Seleccione el mapa"
 						},
 						"resetIcon": {
-							"title": "Deseleccionar la cartografía"
+							"title": "Deseleccionar el mapa"
 						},
 						"refreshTree": {
 							"title": "Refrescar el árbol"
