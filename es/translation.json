@@ -82,7 +82,7 @@
 			"label": "Servicios públicos"
 		},
 		"importStructures": {
-			"label": "Estructuras de importación"
+			"label": "Importar Estructuras"
 		},
 		"compareItemSchemes": {
 			"label": "Comparar esquemas de artículos"
@@ -784,7 +784,7 @@
 					}
 				},
 				"nsiEndpointType": {
-					"label": "Tipo de punto final SDMX WS",
+					"label": "Ruta del servicio NSI",
 					"options": {
 						"soap": {
 							"label": "SOAP"
@@ -795,15 +795,15 @@
 					}
 				},
 				"maEndpoint": {
-					"label": "Punto final de MA",
+					"label": "Ruta del servicio MA",
 					"placeholder": "https://localhost/MA_WS"
 				},
 				"dmEndpoint": {
-					"label": "Punto final de DM",
+					"label": "Ruta del servicio DM",
 					"placeholder": "https://localhost/DM_API_WS/api/DMApi"
 				},
 				"ldapEndpoint": {
-					"label": "Punto final LDAP"
+					"label": "Ruta de acceso LDAP"
 				},
 				"activeDirectoryEndpoint": {
 					"label": "Punto final de Active Directory"
@@ -1176,7 +1176,7 @@
 					"title": "Mostrar detalle"
 				},
 				"delete": {
-					"title": "Borrar la cartografía"
+					"title": "Borrar el mapa"
 				},
 				"deleteAll": {
 					"title": "Eliminar todas las asignaciones seleccionadas"
@@ -2199,17 +2199,17 @@
 				"csvForm": {
 					"messages": {
 						"fileUpload": {
-							"start": "Uploading file",
-							"success": "File uploaded successfully"
+							"start": "Subiendo archivo",
+							"success": "Archivo subido exitosamente"
 						},
 						"submit": {
-							"start": "Importing data",
-							"success": "Data imported successfully"
+							"start": "Impotando datos",
+							"success": "Datos importados exitosamente"
 						}
 					},
 					"fields": {
 						"mapping": {
-							"label": "Cartografía"
+							"label": "Mapa"
 						},
 						"importType": {
 							"label": "Tipo de importación",
@@ -2228,22 +2228,22 @@
 					},
 					"mappingControl": {
 						"selectedMapping": {
-							"title": "Detalle de la cartografía seleccionada"
+							"title": "Detalle del mapa seleccionado"
 						},
 						"mappingList": {
 							"title": "Lista de mapas"
 						},
 						"detailMapping": {
-							"title": "Detalle de la cartografía"
+							"title": "Detalle del mapa"
 						},
 						"detailIcon": {
 							"title": "Mostrar detalle"
 						},
 						"selectIcon": {
-							"title": "Seleccione la cartografía"
+							"title": "Seleccione el mapa"
 						},
 						"resetIcon": {
-							"title": "Deseleccionar la cartografía"
+							"title": "Deseleccionar el mapa"
 						},
 						"refreshTree": {
 							"title": "Refrescar el árbol"
@@ -3123,18 +3123,18 @@
 			"importStructures": {
 				"messages": {
 					"fileUpload": {
-						"success": "File uploaded successfully"
+						"success": "Fichero cargado exitosamente"
 					}
 				},
 				"table": {
 					"import": {
 						"submit": {
-							"title": "Importaciones"
+							"title": "Importar"
 						}
 					}
 				},
 				"resetButton": {
-					"label": "A ras de suelo"
+					"label": "Limpiar"
 				},
 				"reportModal": {
 					"title": "Artefactos importados",
